@@ -1,0 +1,35 @@
+@media (max-width: 1023px) {
+  .banner-wrap{
+    width: 100%;
+  }
+  .banner-column .banner-column__left{
+    width: 100%;
+    padding: 30px 15px;
+  }
+  .logos{
+    width: 50%;
+    align-items: center;
+  } 
+  .logos li{
+    text-align: center;
+  }
+
+
+
+
+
+
+  /* Footer */
+  .footer-wrap {
+    width: 100%;
+  }
+
+
+}
+
+@media(max-width:767px){
+  .banner-column .banner-column__left{
+    width: 100%;
+    padding: 30px 15px;
+  }
+}
