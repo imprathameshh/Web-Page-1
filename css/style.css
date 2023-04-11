@@ -317,6 +317,7 @@ color: #5B5B5B;
 .blue-block{
   background-color: #232ED1;
   position: absolute;
+  /* margin-top: 110%; */
   width: 100%;
   z-index: 1000;
   padding: 25px 300px;
@@ -583,11 +584,12 @@ color: #5B5B5B;
   background: #ffffff;
 }
 .subscribe-right input {
-  padding-left: 32px;
+  padding-left: 0;
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
   color: red;
+  position: relative;
 }
 .subscribe-button{
   position:absolute;

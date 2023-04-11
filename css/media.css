@@ -1,4 +1,8 @@
 @media (max-width: 1023px) {
+  .menu{
+    display: none;
+  }
+
   .banner-wrap{
     width: 100%;
   }
@@ -6,13 +10,21 @@
     width: 100%;
     padding: 30px 15px;
   }
-  .logos{
-    width: 50%;
-    align-items: center;
+  .logos-div{
+    padding-left: 40%;    
   } 
-  .logos li{
-    text-align: center;
+  .logos{
+    display: inline;
   }
+  .logos li{
+    padding-bottom: 12px;
+  }
+
+  .image-section{
+    width: 100%;
+  }
+
+
 
 
 
@@ -23,11 +35,12 @@
   .footer-wrap {
     width: 100%;
   }
-
-
 }
 
-@media(max-width:767px){
+@media(max-width:768px){
+  .menu{
+    display: none;
+  }
   .banner-column .banner-column__left{
     width: 100%;
     padding: 30px 15px;
