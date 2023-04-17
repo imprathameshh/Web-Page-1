@@ -1,16 +1,17 @@
 @media (max-width: 991px) {
-
   .btn {
     padding: 4px 8px;
     background: #ff6433;
     border: none;
   }
-    /* Banner */
+
+  /* Section-1  */
+  /* Banner */
   .header-left h1 {
     font-size: 34px;
     line-height: 44px;
   }
-  .container-fluid img{
+  .container-fluid img {
     padding-left: 10px;
   }
   .open-info h6 {
@@ -18,9 +19,9 @@
     line-height: 24px;
   }
 
-.open img {
+  .open img {
     padding-right: 0;
-}
+  }
   .open-info p {
     font-size: 16px;
     line-height: 24px;
@@ -30,7 +31,7 @@
     padding-top: 40px;
     width: 100%;
   }
- 
+
   /* Section-2 */
   .service-wrap {
     padding-top: 40px;
@@ -70,31 +71,39 @@
   }
 
   /* Section-3 */
-  .quote_left h2 {
+  .counter-list-wrap{
+    padding: 30px 0;
+  }
+  .counter-list-wrap .title h2 {
     font-size: 30px;
     line-height: 44px;
-    padding-bottom: 10px;
   }
-  .quote_left p {
+  .counter-list-wrap .sub-title p {
+    padding-bottom: 0;
+  }
+  .counter-list-wrap .counter-list-grp {
+    padding-top: 45px;
+    padding-left: 70px;
+  }
+  .counter-list-wrap .counter-list-grp {
+    padding-top: 10px;
+  }
+  .counter-list-grp h2 {
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .counter-list-grp p {
     font-size: 16px;
     line-height: 24px;
   }
-  .quote_left .btn {
-    margin-top: 10px;
-  }
-  .process-right {
-    padding-top: 10px;
-    justify-content: center;
+  .counter-list-grp ol li::before {
+    size: 32px;
   }
 
-  .process-right {
-    padding-top: 10px;
-  }
-
+  /* Section-4  */
   /* We Offer */
-  .we-offer-wrap {
-    padding: 30px 0;
-    background: #f2f2f2;
+  .we-offer-wrap{
+    padding-top: 30px̀̀̀̀;
   }
   .we-offer-wrap .title-wrap h2 {
     font-size: 30px;
@@ -113,7 +122,7 @@
     background: #ff6433;
     color: #fff;
   }
-  .view-all {
+  .offer-list-wrap .view-all {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,35 +174,115 @@
     text-align: center;
   }
 
+  /* Section-6  */
+
   /* Brands  */
   .brand-wrap-center {
-    padding-top: 40px;
+    padding-top: 20px;
   }
   h2 {
     font-size: 30px;
     line-height: 44px;
     padding-bottom: 0;
   }
-  .brands-logo-wrap img {
-    padding-right: 400px;
-    padding-bottom: -250px;
+  .brand-wrap .brands-logo-wrap.d-flex li {
+    width: 50%;
+  }
+  .brands-logo {
+    padding: 0px;
+  }
+  .brands-logo-wrap.d-flex li {
+    padding: 5px 0;
+  }
+
+  /* Section-7  */
+  .testimonial-wrap {
+    padding: 30px 0;
+  }
+
+  .testimonial-wrap .testimonial-title > h2 {
+    font-size: 30px;
+    line-height: 44px;
+  }
+
+  .testimonial-wrap .testimonial-title {
+    padding-bottom: 0;
   }
 
   /* FAQ */
-
-  .faq-title h2 {
+  .faq-wrap {
+    padding: 40px 0;
+  }
+  .faq-heading h2 {
     font-size: 30px;
     line-height: 44px;
-    padding: 30px 0;
   }
-  .accordion-header button {
+  .accordion {
+    padding-top: 30px;
+  }
+  .accordion-button::after {
+    height: 30px;
+    width: 30px;
+  }
+  .faq-wrap .accordion .accordion-button {
+    padding: 5px;
+  }
+  .faq-wrap .accordion .accordion-item .accordion-header .accordion-button {
     font-size: 16px;
     line-height: 24px;
-    padding: 20px 0;
-    padding-left: 20px;
   }
-  .accordion-item h3 {
-    font-size: 12px;
-    color: #939191;
-  } 
+  /* Footer  */
+  .footer-top {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .footer-top .footer-left h2 {
+    font-size: 30px;
+    line-height: 44px;
+    padding-bottom: 30px;
+  }
+  .footer-bottom ul li {
+    padding-top: 30px;
+    width: 50%;
+  }
+  .footer-bottom ul li:nth-child(even) {
+    text-align: end;
+    width: 50%;
+  }
+  .footer-bottom ul li:nth-last-child(1) {
+    text-align: start;
+    width: 100%;
+  }
+  .copywrite {
+    padding-top: 30px;
+  }
+  ul {
+    padding-bottom: 30px;
+  }
+  .footer-right ul li span {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .footer-right ul li a {
+    font-size: 14px;
+    line-height: 34px;
+  }
+  .footer-right ul li {
+    padding-bottom: 15px;
+  }
+  .footer-bottom {
+    padding: 0 0;
+  }
+ 
+  .footer-bottom a {
+    font-size: 14px;
+    line-height: 34px;
+  }
+  .footer-bottom ul li{
+    padding: 8px 0;
+  }
+  .copywrite{
+    padding-top: 0;
+
+  }
 }
