@@ -53,7 +53,11 @@ a:focus {
   outline-offset: 0;
   color: #666666;
 }
-
+.banner-right img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 img {
   border: 0;
   max-width: 100%;
@@ -177,6 +181,17 @@ h2 {
   padding-bottom: 48px;
 }
 /* Navbar */
+.header-wrap.sticky header{
+  background-color: #ff6433;
+  z-index: 1000;
+}
+.header-wrap header{
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
 
 .navbar {
   padding-left: 0;
@@ -210,8 +225,12 @@ h2 {
 }
 
 /* Banner */
-.banner-wrap {
-  padding-top: 128px;
+.banner-wrap{
+  padding-top: 77px;
+}
+
+.align-items-center {
+  padding-top: 10px;
 }
 .header-left {
   align-items: center;

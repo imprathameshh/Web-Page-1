@@ -65,7 +65,7 @@
   </div>
 
   <!-- Banner -->
-  <div class="banner-wrap pt-5">
+  <div class="banner-wrap ">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 col-sm-12 col-md-12 align-items-md-center ">
@@ -734,32 +734,29 @@
   <script src="js/bootstrap.bundle.min.js"></script>
 
   <script>
-    $("#TargetHome").click(function () {
-      $([document.documentElement, document.body]).animate({
-        scrollTop: $("#home").offset().top
-      }, 200);
-    });
-    $("#AboutUs").click(function () {
-      $([document.documentElement, document.body]).animate({
-        scrollTop: $("#about_us").offset().top
-      }, 200);
-    });
-    $("#Services").click(function () {
-      $([document.documentElement, document.body]).animate({
-        scrollTop: $("#services").offset().top
-      }, 200);
-    });
-    $("#Blog").click(function () {
-      $([document.documentElement, document.body]).animate({
-        scrollTop: $("#blog").offset().top
-      }, 200)
-    })
+    // $("#AboutUs").click(function () {
+    //   $([document.documentElement, document.body]).animate({
+    //     scrollTop: $("#about_us").offset().top
+    //   }, 200);
+    // });
 
-    $("#ContactUs").click(function () {
-      $([document.documentElement, document.body]).animate({
-        scrollTop: $("#contact").offset().top 
-      }, 200)
-    })
+    $(".navbar-nav a").click(function () {
+      var hash = jQuery(this).attr("href");
+      $("html, body").animate(
+        {
+          scrollTop: $(hash).offset().top,
+        },
+        1500
+      );
+    });
+    var headerwrap = jQuery(".header-wrap");
+    jQuery(window).on("scroll ready", function () {
+      if (jQuery(this).scrollTop() > 0) {
+        headerwrap.addClass("sticky");
+      } else {
+        headerwrap.removeClass("sticky");
+      }
+    });
 
 
   </script>
