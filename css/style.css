@@ -322,31 +322,7 @@ h2 {
 }
 
 /* Quote */
-/* .process-right ol {
-  counter-reset: my-awesome-counter;
-  padding-left: 100px;
-}
-.process-right ol li {
-  margin: 0 0 0.5rem 0;
-  counter-increment: my-awesome-counter;
-  position: relative;
-}
-.process-right ol li::before {
-  content: "0" counter(my-awesome-counter);
-  color: #ffffff;
-  font-size: 1.5rem;
-  font-weight: bold;
-  position: absolute;
-  --size: 45px;
-  left: calc(-1 * var(--size) - 10px);
-  line-height: var(--size);
-  width: var(--size);
-  height: var(--size);
-  top: 0;
-  background: #661ce7;
-  border-radius: 50%;
-  text-align: center;
-} */
+
 
 .counter-list-wrap {
   padding: 128px 0px;
@@ -443,15 +419,7 @@ h2 {
   color: #1e1b1b;
   padding-bottom: 8px;
 }
-/* .we-offer-wrap .title-wrap h2 {
-  max-width: 858px;
-  margin: 0 auto;
-  font-size: 58px;
-  line-height: 76px;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  color: #1e1b1b;
-} */
+
 .offer-list-wrap > ul {
   display: flex;
   flex-wrap: wrap;

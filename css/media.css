@@ -71,7 +71,7 @@
   }
 
   /* Section-3 */
-  .counter-list-wrap{
+  .counter-list-wrap {
     padding: 30px 0;
   }
   .counter-list-wrap .title h2 {
@@ -99,11 +99,13 @@
   .counter-list-grp ol li::before {
     size: 32px;
   }
-
+  .counter-list-grp ol li::before {
+    size: 22px;
+  }
   /* Section-4  */
   /* We Offer */
-  .we-offer-wrap{
-    padding-top: 30px̀̀̀̀;
+  .we-offer-wrap {
+    padding-top: 30px;
   }
   .we-offer-wrap .title-wrap h2 {
     font-size: 30px;
@@ -137,6 +139,7 @@
   .get-touch-wrap .right {
     width: 100%;
   }
+
 
   /*experience*/
   .experience-wrap .d-flex li {
@@ -204,6 +207,13 @@
     font-size: 30px;
     line-height: 44px;
   }
+  .testimonial button svg ellipse,
+  .testimonial button svg path {
+    display: none;
+  }
+  /* .img, svg{
+    display: none;
+  } */
 
   .testimonial-wrap .testimonial-title {
     padding-bottom: 0;
@@ -223,7 +233,12 @@
   .accordion-button::after {
     height: 30px;
     width: 30px;
+    padding: 4px;
   }
+  .accordion-button.collapsed::after {
+    padding: 0;
+  }
+
   .faq-wrap .accordion .accordion-button {
     padding: 5px;
   }
@@ -231,6 +246,12 @@
     font-size: 16px;
     line-height: 24px;
   }
+  .accordion .accordion-body h3 {
+    padding: 0;
+    font-size: 12px;
+    line-height: 30px;
+  }
+
   /* Footer  */
   .footer-top {
     padding-top: 30px;
@@ -273,16 +294,15 @@
   .footer-bottom {
     padding: 0 0;
   }
- 
+
   .footer-bottom a {
     font-size: 14px;
     line-height: 34px;
   }
-  .footer-bottom ul li{
+  .footer-bottom ul li {
     padding: 8px 0;
   }
-  .copywrite{
+  .copywrite {
     padding-top: 0;
-
   }
 }
